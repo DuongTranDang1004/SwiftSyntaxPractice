@@ -17,7 +17,10 @@ import Foundation
 //print(ex3(a: 0, b: 0)) //false
 //print(ex4(a: 5, b: -7))
 
-print(ex5(inputString: "DuongIs"))
-print(ex5(inputString: "IsDuong"))
+//print(ex5(inputString: "DuongIs"))
+//print(ex5(inputString: "IsDuong"))
+
+//swapFirstLastIndex(str: "h")
+//swapFirstLastIndex(str: "Duong")
 
 
