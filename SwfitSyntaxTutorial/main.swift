@@ -12,8 +12,12 @@ import Foundation
 //SumTwoInteger(num1: 3, num2: 6);
 //absoluteDiff(n: 52);
 
-print(ex3(a: 9, b: 11)) //true
-print(ex3(a: 166, b: 20)) //true
-print(ex3(a: 0, b: 0)) //false
+//print(ex3(a: 9, b: 11)) //true
+//print(ex3(a: 166, b: 20)) //true
+//print(ex3(a: 0, b: 0)) //false
+//print(ex4(a: 5, b: -7))
+
+print(ex5(inputString: "DuongIs"))
+print(ex5(inputString: "IsDuong"))
 
 

@@ -8,3 +8,20 @@
 
 
 
+func ex4(a : Int , b : Int) -> Bool {
+    if a == 0 || b == 0 {
+        print("Input number values cannot be 0 !")
+        return false
+    }
+    if (a * b < 0){
+        return true
+    }
+    else {
+        if a < 0 && b < 0 {
+            return true
+        }
+        else{
+            return false
+        }
+    }
+}
