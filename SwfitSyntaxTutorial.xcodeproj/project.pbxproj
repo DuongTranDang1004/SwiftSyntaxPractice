@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5FB386352E1BB3FC00A36810 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 5FB386342E1BB3FC00A36810 /* Algorithms */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5FAAECC02E1A884E0076637E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB386352E1BB3FC00A36810 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 			);
 			name = SwfitSyntaxTutorial;
 			packageProductDependencies = (
+				5FB386342E1BB3FC00A36810 /* Algorithms */,
 			);
 			productName = SwfitSyntaxTutorial;
 			productReference = 5FAAECC22E1A884E0076637E /* SwfitSyntaxTutorial */;
@@ -106,6 +112,9 @@
 			);
 			mainGroup = 5FAAECB92E1A884E0076637E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5FB386332E1BB3FC00A36810 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5FAAECC32E1A884E0076637E /* Products */;
 			projectDirPath = "";
@@ -285,6 +294,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5FB386332E1BB3FC00A36810 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FB386342E1BB3FC00A36810 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FB386332E1BB3FC00A36810 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5FAAECBA2E1A884E0076637E /* Project object */;
 }
