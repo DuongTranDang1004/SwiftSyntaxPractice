@@ -9,3 +9,10 @@
 //Create an optional String? variable and write a function that prints its length if it exists.
 
 
+func printStringLength(str: String?){
+    if let unwrapped = str{
+        print(unwrapped.count)
+    }else {
+        print("String is nil !")
+    }
+}

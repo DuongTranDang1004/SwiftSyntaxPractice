@@ -151,12 +151,27 @@ import Foundation
 
 //print(squareAndConvertToString(array: [1,2,4,5]))
 
+//
+//let people: [[String: String]] = [
+//    ["firstName": "Alice", "lastName": "Smith"],
+//    ["firstName": "Bob", "lastName": "Johnson"],
+//    ["firstName": "Charlie", "lastName": "Brown"]
+//]
 
-let people: [[String: String]] = [
-    ["firstName": "Alice", "lastName": "Smith"],
-    ["firstName": "Bob", "lastName": "Johnson"],
-    ["firstName": "Charlie", "lastName": "Brown"]
-]
+//print(transformToFullname(people: people))
 
-print(transformToFullname(people: people))
+//
+//print(unwrap(n: nil))
+//print(unwrap(n: 8))
 
+
+//printStringLength(str: nil)
+//printStringLength(str: "Duong")
+
+let a1 = Address( nil,  "Hanoi")
+
+let p1 = SomePerson("Dave", a1)
+
+let p1Street = p1.address?.street
+
+print(p1Street)
