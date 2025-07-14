@@ -7,3 +7,8 @@
 
 //3. Filter positive numbers only
 
+func filterPostiveNum(array: [Int]) -> [Int]{
+    return array.filter{
+        $0 > 0
+    }
+}

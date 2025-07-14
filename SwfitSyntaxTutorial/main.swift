@@ -98,7 +98,65 @@ import Foundation
 
 //var logger1: Logger? = Logger()
 // logger1 = nil
+//
+//var counter = Counter()
+//counter.increment(addedValue: 7)
+//print(counter.value)
 
-var counter = Counter()
-counter.increment(addedValue: 7)
-print(counter.value)
+
+//var  uniqueWords = returnUniqueWords(array: ["He","He", "Hi"])
+//print(uniqueWords)
+
+//
+//print(checkIfContainAllVowels(set: ["a", "e", "o", "u", "i"]))
+//print(checkIfContainAllVowels(set: ["a"]))
+
+//
+//let studentsList = [1: "Daniel", 2: "Kim", 3: "David"]
+//print(getAStudentById(studentsList, id: 2))
+
+
+//print(countGreaterThan(nums: [1: 8.6, 2: 6.2, 3: 9.99], target: 8.0))
+
+//randomize()
+
+//countDown(givenNumber: 8)
+
+//print(classifyWeekdays(weekday: "Sunday"))
+//print(classifyWeekdays(weekday: "Thursday"))
+//print(classifyWeekdays(weekday: "Yoloday"))
+
+//askingUser()
+
+//var strArray = Array(repeating: "", count: 8)
+//insertElement(&strArray, 2, "fory")
+//print(strArray)
+
+//print(SumOfAllEvens(array: [5,3,4,6,8,7,18]))
+
+
+//print(findAllAppearedIndex(array: [7,8,6,5,8,0], target: 8))
+
+
+//print(filterString(array: ["Hel", "HelloFeng", "J"], maxCharAllowed: 4))
+
+//print(filterPostiveNum(array: [0,-3,6,8,-9,10,0]))
+
+//
+//print(productOfAllNum(array: [7,4,5,2]))
+//print(productOfAllNums(array: [7,4,5,2]))
+//print(productOfAllNumShortest(array: [7,4,5,2]))
+
+//print(joinAllStringWithSpaces(array: ["Hello", "MyFeng", "Duong"]))
+
+//print(squareAndConvertToString(array: [1,2,4,5]))
+
+
+let people: [[String: String]] = [
+    ["firstName": "Alice", "lastName": "Smith"],
+    ["firstName": "Bob", "lastName": "Johnson"],
+    ["firstName": "Charlie", "lastName": "Brown"]
+]
+
+print(transformToFullname(people: people))
+

@@ -13,4 +13,14 @@
 //
 //"Invalid" for anything else
 
-
+func classifyWeekdays(weekday: String) -> String {
+    switch weekday {
+    case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" :
+        return "Workday"
+    case "Saturday","Sunday":
+        return "Weekend"
+    default:
+        return "Invalid"
+    }
+    
+}

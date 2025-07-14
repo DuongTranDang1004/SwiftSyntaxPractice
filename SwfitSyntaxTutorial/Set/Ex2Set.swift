@@ -7,4 +7,7 @@
 
 //5. Check if Set Contains All Vowels
 
-
+func checkIfContainAllVowels(set: Set<Character>) -> Bool{
+    let vowels: Set<Character> = ["a", "e", "i", "o", "u"]
+    return vowels.isSubset(of: set)
+}
